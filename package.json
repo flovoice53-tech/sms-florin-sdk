@@ -10,7 +10,13 @@
     "phone-verification",
     "virtual-number",
     "sms-api",
-    "2fa-testing"
+    "2fa-testing",
+    "temporary-phone-number",
+    "virtual-phone-number",
+    "receive-sms",
+    "disposable-phone-number",
+    "test-automation",
+    "qa-testing"
   ],
   "license": "MIT",
   "author": "sms-florin",
