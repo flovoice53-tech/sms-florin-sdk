@@ -1,0 +1,46 @@
+{
+  "name": "sms-florin",
+  "version": "0.1.0",
+  "description": "Official JS/TS client for the sms-florin API — rent phone numbers and receive SMS/OTP verification codes programmatically.",
+  "keywords": [
+    "sms",
+    "sms-verification",
+    "otp",
+    "otp-testing",
+    "phone-verification",
+    "virtual-number",
+    "sms-api",
+    "2fa-testing"
+  ],
+  "license": "MIT",
+  "author": "sms-florin",
+  "homepage": "https://flo-voice1.com/api-access",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flovoice53-tech/sms-florin-sdk"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3"
+  }
+}
