@@ -1,6 +1,6 @@
 {
   "name": "sms-florin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Official JS/TS client for the sms-florin API — rent phone numbers and receive SMS/OTP verification codes programmatically.",
   "keywords": [
     "sms",
