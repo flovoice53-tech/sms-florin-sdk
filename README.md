@@ -1,5 +1,9 @@
 # sms-florin
 
+[![npm version](https://img.shields.io/npm/v/sms-florin.svg)](https://www.npmjs.com/package/sms-florin)
+[![npm downloads](https://img.shields.io/npm/dm/sms-florin.svg)](https://www.npmjs.com/package/sms-florin)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/sms-florin)](https://bundlephobia.com/package/sms-florin)
+
 Official JS/TS client for the [sms-florin](https://flo-voice1.com) API — rent a real phone number and receive SMS/OTP verification codes on it programmatically. Useful for CI, QA, or automating account-creation flows without exposing a personal number.
 
 ```bash
